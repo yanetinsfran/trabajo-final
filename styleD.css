@@ -1,0 +1,25 @@
+body {
+    background-color: #ADD8E6;
+  }
+  
+  #mostrarUsuario {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: black; /* Texto en negro */
+    font-size: 24px; /* Letra grande */
+    font-weight: bold; /* Negrita */
+} 
+#logo {
+  width: 1200px; /* Cambia el tamaño de la imagen según tus necesidades */
+  height: 200px;
+  margin-right: 0px; /* Añade un margen derecho para separar la imagen del texto */
+  padding: 30px;
+}
+
+h1 {
+  text-decoration-line:none;
+  
+}

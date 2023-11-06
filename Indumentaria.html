@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indumentaria.css">
+</head>
+<body>
+    
+    <header>
+        <div id="logo-container">
+            <img src="imagen/logo.jpg" alt="Logo de la página" id="logo">
+         </div>
+          
+    </header>
+    <h1> Elige tu talle</h1>
+    <form id="remeras-form">
+      <label for="talle">Talle:</label>
+      <select id="talle" name="talle">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+
+      <br><br><hr>
+      <h1>Elige tu remeras</h1>
+      <label for="Remeras">Remeras:</label>
+      <select id="Remeras" name="Remeras">
+       </select>
+      
+      <button type="button" id="agregar-carrito-remera">Agregar al carrito</button>
+    </form>
+    <br><br><hr>
+    <h1>Elige tu Pantalon</h1>
+      <label for="pantalon">Pantalon:</label>
+      <select id="Pantalones" name="Pantalones">
+      </select>
+      
+      <button id="agregar-carrito-pantalon">Agregar al carrito</button>
+      <hr>
+      <div id="carrito"></div>
+
+      <p id="precio-total"></p>
+     
+      <button id="vaciar-carrito">Vaciar carrito</button>
+
+      
+    
+      <script  src="indumentaria.js"></script>
+
+      <button onclick="window.location.href='index.html'">Volver a la página principal</button>
+
+</body>
+</html>
